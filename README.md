@@ -46,13 +46,6 @@ This guide will walk you through installing and configuring the tinytroupe packa
 
 ---
 
-## ✅ You're Ready!
-
-Once setup is complete, you can begin using the tinytroupe framework to simulate multi-agent LLM interactions.
-
-1.	For more usage examples, see the [official GitHub repo](https://github.com/microsoft/tinytroupe).
-
-
 # Q2  What is Turing Test? In today's world with Large Language Models (LLMs), what is the definition of Turing Test?
 The Turing Test was proposed in 1950 by Alan Turing, a pioneer of computer science. The goal of the test is to assess a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.
 In the Original Setup:
@@ -140,7 +133,7 @@ John --> Yiqiao: [CONVERSATION]
           > Thank you so much, Yiqiao! I really appreciate your understanding and support. I will
           > definitely reach out if I need any help during the week.
 
-
+```
 ---
 
 ## 🧠 My Comment
@@ -149,6 +142,6 @@ John --> Yiqiao: [CONVERSATION]
 Here's why: The conversation between Yiqiao and John felt natural, empathetic, and realistic. Yiqiao responded with appropriate emotional intelligence, asked clarifying questions, and adjusted based on John's responses — just like a real professor would. John's replies were thoughtful and contextually aware, showing a clear understanding of the situation. There were no robotic or out-of-place responses, and the pacing of the dialogue mimicked a real-life academic discussion.
 
 This level of coherence and human-like behavior shows that the simulation can convincingly emulate real human interaction, especially in structured settings like classrooms or office hours.
-```
+
 
 **Hugging Face : https://huggingface.co/spaces/krishnam229/tinytroupe2**
