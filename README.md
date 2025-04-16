@@ -66,13 +66,11 @@ Modern Interpretation with LLMs:
 
 # Q3 Create a simulation of your own topic and show me the transcript. This implies define at least two personas of your own choice with conflict built in and observe their conversation. You can simply copy/paste the conversation in a .md file. Please comment on the transcript whether you think the Turing Test is passed.
 
+```python
 >>> world = TinyWorld("Classroom", [yiqiao, john])
 >>> world.make_everyone_accessible()
 >>> 
 >>> yiqiao.listen("I want to extend my homework.")
-USER --> Yiqiao: [CONVERSATION] 
-          > I want to extend my homework.
-TinyPerson(name='Yiqiao')
 >>> world.run(3) # trigger the conversation with 3 rounds back-and-forth
 ──────────────────────────────────────────────────────────────────── Classroom step 1 of 3 ─────────────────────────────────────────────────────────────────────
 Yiqiao acts: [THINK] 
@@ -141,3 +139,16 @@ John acts: [DONE]
 John --> Yiqiao: [CONVERSATION] 
           > Thank you so much, Yiqiao! I really appreciate your understanding and support. I will
           > definitely reach out if I need any help during the week.
+
+
+---
+
+## 🧠 My Comment
+
+**I think the bots passed the Turing Test.**  
+Here's why: The conversation between Yiqiao and John felt natural, empathetic, and realistic. Yiqiao responded with appropriate emotional intelligence, asked clarifying questions, and adjusted based on John's responses — just like a real professor would. John's replies were thoughtful and contextually aware, showing a clear understanding of the situation. There were no robotic or out-of-place responses, and the pacing of the dialogue mimicked a real-life academic discussion.
+
+This level of coherence and human-like behavior shows that the simulation can convincingly emulate real human interaction, especially in structured settings like classrooms or office hours.
+```
+
+**Hugging Face : https://huggingface.co/spaces/krishnam229/tinytroupe2**
